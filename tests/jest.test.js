@@ -1,5 +1,5 @@
-const firstFactorial = require('../src/Coderbyte/first.js');
+const centuryFromYears = require('../src/CodeSignal/centuryFromYear');
 
 test('practice', () => {
-  expect(firstFactorial(6)).toEqual(720);
+  expect(centuryFromYears(1905)).toEqual(20);
 });
