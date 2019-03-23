@@ -1,27 +1,15 @@
-const checkPalindrome = require('../src/CodeSignal/checkPalindrome');
-const checkPalRedux = require('../src/CodeSignal/checkPalindrome');
-const palSimple = require('../src/CodeSignal/checkPalindrome');
+const functionTest = require('../src/CodeSignal/matrixElementsSum');
 
 test('practice', () => {
-  expect(checkPalindrome('abfba')).toEqual(true);
+  const testValue = [[0, 1, 1, 2], [0, 5, 0, 0], [2, 0, 3, 3]];
+  const result = 9;
+
+  expect(functionTest(testValue)).toEqual(result);
 });
 
-test('practice2', () => {
-  expect(checkPalindrome('abba')).toEqual(true);
-});
+test('practice', () => {
+  const testValue = [[1, 1, 1, 0], [0, 5, 0, 1], [2, 1, 3, 10]];
+  const result = 9;
 
-test('practiceRedux', () => {
-  expect(checkPalRedux('abba')).toEqual(true);
-});
-
-test('practiceRedux2', () => {
-  expect(checkPalRedux('abfba')).toEqual(true);
-});
-
-test('practiceSimple', () => {
-  expect(palSimple('abba')).toEqual(true);
-});
-
-test('practiceSimple2', () => {
-  expect(palSimple('abfba')).toEqual(true);
+  expect(functionTest(testValue)).toEqual(result);
 });
