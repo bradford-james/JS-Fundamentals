@@ -1,15 +1,15 @@
 Collection of JS practice from various sites:
 
--Hacker Rank
+- Hacker Rank
 
--CodeSignal
+- CodeSignal
 
--Coderbyte
+- Coderbyte
 
--Testing JS
+- Testing JS
 
--100 Algorithms Challenge
+- 100 Algorithms Challenge
 
--JavaScript30
+- JavaScript30
 
--Flavio Copes JS Course
+- Flavio Copes JS Course
